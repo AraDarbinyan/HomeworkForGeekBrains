@@ -19,3 +19,6 @@
     }
     return newarray;
 }
+string[] arrayofStrings = {"hello", "my", "friend", "234", ":-)", "homework", "12"};
+string[] finalArray = deletingofElements(arrayofStrings);
+Console.WriteLine($"{string.Join(" ", finalArray)}");
