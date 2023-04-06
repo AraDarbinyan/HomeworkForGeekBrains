@@ -1,3 +1,12 @@
-﻿string name = "Araik";
-//Console.WriteLine("Hello, World!");
-Console.WriteLine(name.Length);
+﻿string[] deletingofElements(string[]array){
+    int count = 0;
+    for(int i =0; i<array.Length; i++)
+    {
+        if (array[i].Length <=3)
+        {
+            count++;
+        }
+    }
+    string[] newarray = new string[count];
+    return newarray;
+}
