@@ -8,5 +8,14 @@
         }
     }
     string[] newarray = new string[count];
+    int j =0;
+    for (int i = 0; i < array.Length; i++)
+    {
+        if (array[i].Length <= 3)
+        {
+            newarray[j] = array[i];
+            j++;
+        }
+    }
     return newarray;
 }
